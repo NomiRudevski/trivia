@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div id=1 class="card">
+        <h3 class="title">QUESTION 1</h3>
+        <span class="question">Who was the first woman to win a Nobel Prize?</span>
+        <table class="answers-box">
+            <tr>
+                <th><button id=A1 class="answer" onclick="check(id,1)">Amelia Earhart</button></th>
+                <th><button id=A2 class="answer" onclick="check(id,1)">Frida Kahlo</button></th>
+            </tr>
+            <tr>
+                <th><button id=A3 class="answer" onclick="check(id,1,'right')">Marie Curie</button></th>
+                <th><button id=A4 class="answer" onclick="check(id,1)">Rosalind Franklin</button></th>
+            </tr>
+        </table>
+    </div>
+
+    <div id=2 class="card-b">
+        <h3 class="title">QUESTION 2</h3>
+        <span class="question">What is the capital of Bhutan?</span>
+        <table class="answers-box">
+            <tr>
+                <th><button id=A5 class="answer" onclick="check(id,2,'right')">Thimphu</button></th>
+                <th><button id=A6 class="answer" onclick="check(id,2)">Kathmandu</button></th>
+            </tr>
+            <tr>
+                <th><button id=A7 class="answer" onclick="check(id,2)">Dhaka</button></th>
+                <th><button id=A8 class="answer" onclick="check(id,2)"> Ulaanbaatar</button></th>
+            </tr>
+        </table>
+    </div>
+
+    <div id=3 class="card-b">
+        <h3 class="title">QUESTION 3</h3>
+        <span class="question">Which planet is known as the "Red Planet"?</span>
+        <table class="answers-box">
+            <tr>
+                <th><button id=A9 class="answer" onclick="check(id,3)">Saturn</button></th>
+                <th><button id=A10 class="answer" onclick="check(id,3)">Jupiter</button></th>
+            </tr>
+            <tr>
+                <th><button id=A11 class="answer" onclick="check(id,3)">Venus</button></th>
+                <th><button id=A12 class="answer" onclick="check(id,3,'right')">Mars</button></th>
+            </tr>
+        </table>
+    </div>
+
+    <div id=4 class="card-b">
+        <h3 class="title">QUESTION 4</h3>
+        <span class="question">Which artist painted the famous artwork "The Persistence of Memory"?</span>
+        <table class="answers-box">
+            <tr>
+                <th><button id=A13 class="answer" onclick="check(id,4)">Pablo Picasso</button></th>
+                <th><button id=A14 class="answer" onclick="check(id,4,'right')">Salvador Dalí</button></th>
+            </tr>
+            <tr>
+                <th><button id=A15 class="answer" onclick="check(id,4)">Vincent van Gogh</button></th>
+                <th><button id=A16 class="answer" onclick="check(id,4)">Claude Monet</button></th>
+            </tr>
+        </table>
+    </div>
+
+    <div id=5 class="card-b">
+        <h3 class="title">QUESTION 5</h3>
+        <span class="question">Which planet in our solar system has the longest day?</span>
+        <table class="answers-box">
+            <tr>
+                <th><button id=A17 class="answer" onclick="check(id,5,'right')">Venus</button></th>
+                <th><button id=A18 class="answer" onclick="check(id,5)">Jupiter</button></th>
+            </tr>
+            <tr>
+                <th><button id=A19 class="answer" onclick="check(id,5)">Mercury</button></th>
+                <th><button id=A20 class="answer" onclick="check(id,5)">Saturn</button></th>
+            </tr>
+        </table>
+    </div>
+
+    <div id=6 class="card-b">
+        <h3 class="title">QUESTION 6</h3>
+        <span class="question">What is the smallest bone in the human body?</span>
+        <table class="answers-box">
+            <tr>
+                <th><button id=A21 class="answer" onclick="check(id,6)">Femur</button></th>
+                <th><button id=A22 class="answer" onclick="check(id,6,'right')">Stapes</button></th>
+            </tr>
+            <tr>
+                <th><button id=A23 class="answer" onclick="check(id,6)">Tibia</button></th>
+                <th><button id=A24 class="answer" onclick="check(id,6)">Humerus</button></th>
+            </tr>
+        </table>
+    </div>
+
+    <div id=7 class="card-b">
+        <h3 class="title">QUESTION 7</h3>
+        <span class="question">Which scientist first proposed the theory of general relativity?</span>
+        <table class="answers-box">
+            <tr>
+                <th><button id=A25 class="answer" onclick="check(id,7)">Darwin</button></th>
+                <th><button id=A26 class="answer" onclick="check(id,7,'right')">Einstein</button></th>
+            </tr>
+            <tr>
+                <th><button id=A27 class="answer" onclick="check(id,7)">Newton</button></th>
+                <th><button id=A28 class="answer" onclick="check(id,7)">Hawking</button></th>
+            </tr>
+        </table>
+    </div>
+
+    <div id=8 class="card-b">
+        <h3 class="title">QUESTION 8</h3>
+        <span class="question">Which two countries have the longest shared international border?</span>
+        <table class="answers-box">
+            <tr>
+                <th><button id=A29 class="answer" onclick="check(id,8)">Finland and Russia</button></th>
+                <th><button id=A30 class="answer" onclick="check(id,8)">Brazil and Bolivia</button></th>
+            </tr>
+            <tr>
+                <th><button id=A31 class="answer" onclick="check(id,8)">India and Pakistan</button></th>
+                <th><button id=A32 class="answer" onclick="check(id,8,'right')">Canada and the U.S.</button></th>
+            </tr>
+        </table>
+    </div>
+
+    <div id=9 class="card-b">
+        <h3 class="title">QUESTION 9</h3>
+        <span class="question">What was the first country to give women the right to vote?</span>
+        <table class="answers-box">
+            <tr>
+                <th><button id=A33 class="answer" onclick="check(id,9)">England</button></th>
+                <th><button id=A34 class="answer" onclick="check(id,9)">France</button></th>
+            </tr>
+            <tr>
+                <th><button id=A35 class="answer" onclick="check(id,9,'right')">New Zealand</button></th>
+                <th><button id=A36 class="answer" onclick="check(id,9)">Japan</button></th>
+            </tr>
+        </table>
+    </div>
+
+    <div id=10 class="card-b">
+        <h3 class="title">QUESTION 10</h3>
+        <span class="question">How many bones do sharks have?</span>
+        <table class="answers-box">
+            <tr>
+                <th><button id=A37 class="answer" onclick="check(id,10,'right')">0 bones</button></th>
+                <th><button id=A38 class="answer" onclick="check(id,10)">10 bones</button></th>
+            </tr>
+            <tr>
+                <th><button id=A39 class="answer" onclick="check(id,10)">264 bones</button></th>
+                <th><button id=A40 class="answer" onclick="check(id,10)">86 bones</button></th>
+            </tr>
+        </table>
+    </div>
+
+    <div id="11" class="card-b">
+        <h3 class="title"><span id="scoreDisplay">Congratulations! Your score is: 0</span> </h3>
+    </div>
+
+</body>
+
+
+</html>
